@@ -1,0 +1,32 @@
+{
+  "name": "template_base",
+  "version": "1.0.0",
+  "description": "This is the template of Fit Pro Client Face project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/getsrc/fitproworx-clientfacing.git"
+  },
+  "author": "@pedroscursel",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/getsrc/fitproworx-clientfacing#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}

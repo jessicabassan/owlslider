@@ -1,0 +1,12 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *
+ *                        ..:: IMPORTANT ::..
+ *       ..:: THIS IS A HACKED VERSION FOR REDUCE JUNK CSS ::..
+ *
+ *  For a better understood of how font-awsome are builded, check this file: "@{node-modules}font-awesome/less/font-awesome.less"
+ *  Follow the structure scheme to add more icons and features.
+ *
+ */
+@font-face{font-family:'FontAwesome';src:url(../fonts/fontawesome-webfont.eot?v=4.7.0);src:url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");font-weight:400;font-style:normal}.fa{display:inline-block;font:14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-facebook:before{content:"\f09a"}.fa-instagram:before{content:"\f16d"}.fa-linkedin:before{content:"\f0e1"}.fa-search:before{content:"\f002"}.fa-twitter:before{content:"\f099"}.fa-close:before{content:"\f00d"}.fa-bars:before{content:"\f0c9"}

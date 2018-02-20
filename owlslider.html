@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+		<div class="container-fluid container-border">
+			<section>
+				<header class="container-fluid">
+
+					<div class="owl-carousel owl-theme">
+
+			            <div class="item" style="background-image: url('./assets/images/bg-topo.png');">
+			            	<div class="row">
+								<div class="col-md-12 titulo">
+									<div class="align-self-center agrupa-titulo">
+										<h1>Lorem Ipsum é simplesmente uma simulação de texto</h1>
+										<h5>Run your business faster, smarter and more efficiently eith FitProWorx</h5>
+									</div>
+								</div>
+							</div>
+			            </div>
+
+			            <div class="item" style="background-image: url('./assets/images/bg-topo.png');">
+			            	<div class="row">
+								<div class="col-md-12 titulo">
+									<div class="align-self-center agrupa-titulo">
+										<h1>Lorem Ipsum é simplesmente uma simulação de texto</h1>
+										<h5>Lorem Ipsum é simplesmente uma simulação de texto</h5>
+									</div>
+								</div>
+							</div>
+			            </div>
+
+
+			        </div>
+
+					<nav class="navbar navbar-toggleable-md navbar-light col">
+
+						<a class="navbar-brand" href="#">
+							<img class="img-fluid" src="./assets/images/logo.jpg" class="d-inline-block align-top" alt="">
+						</a>
+
+						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="modal" data-target="#myModal">
+							<span class="fa fa-bars"></span>
+						</button>
+
+
+						<div class="collapse navbar-collapse menu " id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto nav d-flex align-items-center justify-content-end col">
+								<li class="nav-item">
+									<a class="nav-link" href="#">company</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">software</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">who we server</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">newroom</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">business solutions</a>
+								</li>
+								<li class="nav-item">
+									<button> request a demo </button>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+				</header>
+
+			</section>	 <!-- Inicio container-border -->
+		</div>
+
+
+
+
+	</body>
+
+	<script src="./assets/js/script.js"></script>
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+	    $(document).ready(function() {
+	      var owl = $('.owl-carousel');
+	      owl.owlCarousel({
+	        items: 1,
+	        loop: true,
+	        center: true,
+	        margin: 5,
+	        nav: true,
+	        dots: false,
+	        responsiveClass:true,
+		    responsive:{
+		        0:{
+		            items:1,
+		            nav:true
+		        },
+		        600:{
+		            items:1,
+		            nav:false
+		        },
+		        1000:{
+		            items:1,
+		            nav:true,
+		            loop:false
+		        }
+		    }
+	      })
+	    })
+  	</script>
+
+</html>

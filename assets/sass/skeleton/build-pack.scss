@@ -1,0 +1,30 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *
+ *                        ..:: IMPORTANT ::..
+ *       ..:: THIS IS A HACKED VERSION FOR REDUCE JUNK CSS ::..
+ *
+ *  For a better understood of how font-awsome are builded, check this file: "@{node-modules}font-awesome/less/font-awesome.less"
+ *  Follow the structure scheme to add more icons and features.
+ *
+ */
+$fa-font-size-base:   	14px;
+$fa-line-height-base: 	1;
+$fa-version:          	"4.7.0";
+$fa-li-width:         	(30em / 14);
+$fa-css-prefix:       	fa;
+$fa-font-path:    		"../fonts";
+@import "../../../node_modules/font-awesome/scss/path";
+@import "../../../node_modules/font-awesome/scss/core";
+.fa-facebook:before 	{ content: "\f09a"; }
+.fa-instagram:before 	{ content: "\f16d"; }
+.fa-linkedin:before 	{ content: "\f0e1"; }
+.fa-search:before		{ content: "\f002"; }
+.fa-twitter:before		{ content: "\f099"; }
+.fa-close:before 		{ content: "\f00d"; }
+.fa-bars:before 		{ content: "\f0c9"; }
+
+
+
+
